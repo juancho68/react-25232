@@ -1,0 +1,64 @@
+    [{
+      "id": "1",
+      "name": "Vino 1",
+      "description":"El vino 1 es el mejor malbec de la semana",
+      "price":1999,
+      "stock":10,
+      "category": "malbec",
+      "imageUrl": "/images/vino1.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Vino 2",
+      "description": "El vino 2 es el mejor malbec de la semana",
+      "price": 2999,
+      "stock":10,
+      "category": "malbec",
+      "imageUrl": "/images/vino2.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Vino 3",
+      "description": "El vino 3 es el mejor malbec de la semana",
+      "price": 3999,
+      "stock":10,
+      "category": "malbec",
+      "imageUrl": "/images/vino3.jpg"
+    },
+        {
+      "id": "4",
+      "name": "Vino 4",
+      "description": "El vino 4 es el mejor malbec de la semana",
+      "price": 4999,
+      "stock":10,
+      "category": "malbec",
+      "imageUrl": "/images/vino4.jpg"
+    },
+        {
+      "id": "5",
+      "name": "Vino 5",
+      "description": "El vino 5 es el mejor malbec de la semana",
+      "price": 5999,
+      "stock":10,
+      "category": "malbec",
+      "imageUrl": "/images/vino5.jpg"
+    },
+        {
+      "id": "6",
+      "name": "Vino 6",
+      "description": "El vino 6 es el mejor malbec de la semana",
+      "price": 6999,
+      "stock":10,
+      "category": "malbec",
+      "imageUrl": "/images/vino6.jpg"
+    },
+        {
+      "id": "7",
+      "name": "Vino 7",
+      "description": "El vino 7 es el mejor malbec de la semana",
+      "price": 7999,
+      "stock":10,
+      "category": "malbec",
+      "imageUrl": "/images/vino7.jpg"
+    }                 
+]
