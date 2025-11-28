@@ -1,0 +1,40 @@
+.title {
+  font-family: "Cinzel", serif;
+  font-size: 32px;
+  color: #111;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+
+@media(min-width: 720px){
+    .productos-dionisio-grid{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    gap: 30px; 
+    padding: 10px 0;
+    
+    }
+}
+
+@media(min-width: 960px){
+    .productos-dionisio-grid{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap: 30px; 
+    padding: 10px 0;
+    
+    }
+}
+
+@media(min-width: 1140px){
+    .productos-dionisio-grid{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    gap: 30px; 
+    padding: 10px 0;
+    
+    }
+}
+
+
+

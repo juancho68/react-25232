@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { useCartContext } from "../../context/CartContext/useCartContext";
+import "./Nav.css";
 
 export const Nav=()=>{
     const {getTotalItems}=useCartContext();
@@ -14,14 +15,11 @@ export const Nav=()=>{
                 </li>
             
                 <li>
-                    <Link to={"/category/red"}>Red</Link>
+                    <Link to={"/category/tinto"}>Red</Link>
                 </li>
                         
                 <li>
-                    <Link to={"/category/white"}>White</Link>
-                </li>
-                <li>
-                    <Link to={"/contact"}>Contact</Link>
+                    <Link to={"/category/blanco"}>White</Link>
                 </li>
             
                 <li>

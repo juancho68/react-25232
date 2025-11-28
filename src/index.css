@@ -4,7 +4,7 @@
   font-weight: 400;
   background-color: #f5efef;
   color-scheme: light dark;
-  color: rgb(241, 32, 50);
+  color: rgb(14, 13, 13); 
 
   
 }
@@ -12,8 +12,7 @@
 
 a {
   font-weight: 500;
-  color: rgb(238, 68, 68);
-  text-decoration: none;
+  color: rgb(12, 12, 12); 
 }
 a:hover {
   text-decoration:dotted underline;
@@ -45,7 +44,7 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #ff6464;
+  border-color: #111111; 
 }
 button:focus,
 button:focus-visible {
@@ -57,7 +56,7 @@ button:focus-visible {
 article{
   display:flex;
   flex-direction: column;
-  border:1px solid  rgb(238, 68, 77);
+   border:1px solid  rgb(17, 17, 17);  
   border-radius:10px;
   padding:10px;
   margin:10px;

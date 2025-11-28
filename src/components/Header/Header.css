@@ -1,0 +1,81 @@
+
+
+/* Contenedor general */
+.header-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+}
+
+/* Bloque del logo/título */
+.header-logo-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Ícono de uvas (si se usa) */
+.logo-icon {
+  width: 60px;
+  margin-bottom: 5px;
+}
+
+/* Texto principal DIONISIO */
+.logo-title {
+  font-family: "Cinzel", serif;
+  font-size: 42px;
+  color: #111;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+
+/* Bloque DESDE 2024 + líneas */
+.divider-block {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 4px;
+}
+
+.line {
+  width: 60px;
+  height: 1px;
+  background-color: #666;
+}
+
+.since {
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: #666;
+}
+
+/* NAV debajo del borde */
+header nav {
+  width: 100%;
+  margin-top: 25px;
+  border-top: 1px solid #ccc;
+  padding-top: 15px;
+}
+
+/* Ajuste visual de los links del nav */
+header nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  list-style: none;
+  padding: 0;
+}
+
+header nav ul li a {
+  color: #333;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 6px 12px;
+}
+
+header nav ul li a:hover {
+  color: #000;
+  text-decoration: underline;
+}
