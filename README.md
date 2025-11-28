@@ -1,6 +1,6 @@
 # Proyecto Final
 
-El proyecto tiene las rutas:
+El proyecto se basa en una tienda de vinos y posee las siguientes rutas:
 - Home : donde se listan todos los productos de una tienda de vinos.
 - Red : Donde se filtran los vinos tintos.
 - White : Donde se filtran los vinos blancos.
