@@ -2,7 +2,7 @@
 import { Link } from "react-router-dom";
 import { Nav } from "../Nav/Nav";
 import "./Header.css";
-<!--import logo from "/assets/grapes_k.png";-->
+
 
 export const Header = () => {
   return (
