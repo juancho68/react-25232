@@ -8,9 +8,9 @@ El proyecto se basa en una tienda de vinos y posee las siguientes rutas:
 
 Cada artículo está contenido en una tarjeta, que al hacerle click me da el detalle, permite elegir cantidad y agregar el artículo al carrito.
 
-El carrito hace el total de la compra.
+El carrito lista los artículos, las cantidades agregadas y calcula el total de la compra.
 
-En la ruta /admin puedo dar de alta nuevos productos.
+En la ruta /admin puedo loguearme con un user/pass harcodeado y dar de alta nuevos productos.
 
 Deploy al proyecto : https://react-25232.vercel.app/
 
