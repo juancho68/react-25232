@@ -8,7 +8,8 @@ El proyecto se basa en una tienda de vinos y posee las siguientes rutas:
 
 Cada artículo está contenido en una tarjeta, que al hacerle click me da el detalle, permite elegir cantidad y agregar el artículo al carrito.
 
-El carrito lista los artículos, las cantidades agregadas y calcula el total de la compra.
+El carrito lista los artículos, las cantidades agregadas y calcula el total de la compra. 
+Aquí puedo finalizar la compra de manera simulada o también vaciar el carrito. 
 
 En la ruta /admin puedo loguearme con un user/pass harcodeado y dar de alta nuevos productos.
 
