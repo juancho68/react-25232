@@ -2,7 +2,7 @@
 import { Link } from "react-router-dom";
 import { Nav } from "../Nav/Nav";
 import "./Header.css";
-import logo from "../../public/assets/grapes_k.png";
+<!--import logo from "/assets/grapes_k.png";-->
 
 export const Header = () => {
   return (
@@ -11,7 +11,7 @@ export const Header = () => {
 
       <div className="header-logo-block">
 
-        <img src={logo} alt="Logo Dionisio" className="logo-icon" />
+        <img src="/assets/grapes_k.png" alt="logo" />
 
         <Link to="/" className="logo-title">
           DIONISIO
