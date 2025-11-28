@@ -35,7 +35,7 @@ export const Login = () => {
     return (
         <form className="session-form" onSubmit={handleSubmit}>
             <h2 className="title">Iniciar sesión</h2>
-            <div>
+            <div className="form-group">
                 <label>Usuario:</label>
                 <input 
                     type="text"
@@ -44,7 +44,7 @@ export const Login = () => {
                     onChange={handleChange} 
                 />
             </div>
-            <div>
+            <div className="form-group">
                 <label>Contraseña:</label>
                 <input 
                     type="password"
@@ -53,7 +53,7 @@ export const Login = () => {
                     onChange={handleChange} 
                 />
             </div>
-            <button  type="submit">Iniciar sessión</button>
+            <button className="btn-login" type="submit">Iniciar sessión</button>
         </form>
 
     );
